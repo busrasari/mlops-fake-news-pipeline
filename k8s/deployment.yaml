@@ -4,7 +4,7 @@ metadata:
   name: fake-news-api
 spec:
   replicas: 1
-  selector:s
+  selector:
     matchLabels:
       app: fake-news-api
   template:
